@@ -69,7 +69,7 @@ public class SpringDataTest {
 		template.save(b2);
  
 		A a1 = new A();
-		a1.id = "p1";
+		a1.id = "a1";
 		a1.matches = Arrays.asList(b1, b2);
  
 		A a2 = new A();
